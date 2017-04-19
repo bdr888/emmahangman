@@ -1,0 +1,106 @@
+font-family: 'Dancing Script', cursive;
+font-family: 'Raleway', sans-serif;
+
+/*@media (max-width: @screen-xs-max) {
+	.happy {
+
+	}
+}*/
+
+/*.wide {
+  letter-spacing: 10px;
+  font-stretch: ultra-expanded;
+}*/
+.label-default {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+/**/
+
+.happy {
+	margin-top: 50px;
+	font-size: 48px;
+	font-family: "Raleway";
+	letter-spacing: 2px;
+	/*-webkit-animation-duration: 4s;*/
+}
+
+.hello {
+	margin-top: 10px;
+	font-family: "Dancing Script";
+	font-size: 30px;
+	/*-webkit-animation-duration: 5s;*/
+  	-webkit-animation-delay: 1s;
+}
+
+.word {
+	margin-top: 35px;
+	font-size: 50px;
+	/*-webkit-animation-duration: 5s;*/
+  	-webkit-animation-delay: 1s;
+}
+
+.redrocks {
+	font-family: "Raleway";
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: 10px;
+	-webkit-animation-duration: 15s;
+}
+
+.placeholder {
+	height: 50px;
+}
+
+.alphatitle {
+	margin-top: 50px;
+	font-family: "Dancing Script";
+	font-size: 26px;
+	/*-webkit-animation-duration: 5s;*/
+  	-webkit-animation-delay: 2.5s;
+}
+
+.alphabet {
+	font-family: "Raleway";
+	font-size: 46px;
+	font-weight: 500;
+	/*margin: 10px;*/
+	/*-webkit-animation-duration: 5s;*/
+  	-webkit-animation-delay: 3s;
+}
+
+.alpha {
+	padding: 5px;
+}
+
+.correctguess {
+	font-family: "Raleway";
+	padding: 5px;
+}
+
+.correctguess-active {
+	font-family: "Raleway";
+	padding: 5px;
+}
+
+.clicked {
+	color: #d3d3d3;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+}
