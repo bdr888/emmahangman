@@ -1,4 +1,7 @@
+console.log('running');
+
 $(document).ready(function() {
+
 
 var winArray = ["A", "E", "C", "H", "N", "P", "R", "T"];
 var correctGuessArray = [];
