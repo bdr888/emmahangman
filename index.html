@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap-css-only/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="shortcut icon" type="image/png" href="balloon_16.png"/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Raleway:100,200,300,400,500,600,700,800" rel="stylesheet">
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -27,28 +28,47 @@
         </div>
       </div> <!-- end row intro-->
 
-      <div class="row word animated fadeInUp">
-        <div class='col-xs-12 col-sm-12 col-md-6 col-md-offset-3 text-center'>
-          <span class="correctguess C">_</span>
-          <span class="correctguess H">_</span>
-          <span class="correctguess A">_</span>
-          <span class="correctguess N">_</span>
-          <span class="correctguess C">_</span>
-          <span class="correctguess E">_</span>
+      <div class="row">
+
+        <div class='col-xs-4 col-sm-4 col-md-4 balloon text-center animated zoomIn'>
+          <img src="balloons_128.png">
         </div>
-        <div class='col-xs-12 col-sm-12 col-md-6 col-md-offset-3 text-center'>
-          <span class="correctguess T">_</span>
-          <span class="correctguess H">_</span>
-          <span class="correctguess E">_</span>
+
+
+        <div class='col-xs-4 col-sm-4 col-md-4 text-center placeholder'></div> 
+
+        <div class='col-xs-4 col-sm-4 col-md-4 text-center word animated fadeInUp'>
+          <div>
+            <span class="correctguess C">_</span>
+            <span class="correctguess H">_</span>
+            <span class="correctguess A">_</span>
+            <span class="correctguess N">_</span>
+            <span class="correctguess C">_</span>
+            <span class="correctguess E">_</span>
+          </div>
+          <div>
+            <span class="correctguess T">_</span>
+            <span class="correctguess H">_</span>
+            <span class="correctguess E">_</span>
+          </div>
+          <div>
+            <span class="correctguess R">_</span>
+            <span class="correctguess A">_</span>
+            <span class="correctguess P">_</span>
+            <span class="correctguess P">_</span>
+            <span class="correctguess E">_</span>
+            <span class="correctguess R">_</span>
+          </div>
         </div>
-        <div class='col-xs-12 col-sm-12 col-md-6 col-md-offset-3 text-center'>
-          <span class="correctguess R">_</span>
-          <span class="correctguess A">_</span>
-          <span class="correctguess P">_</span>
-          <span class="correctguess P">_</span>
-          <span class="correctguess E">_</span>
-          <span class="correctguess R">_</span>
-        </div>
+
+        <div class='col-xs-4 col-sm-4 col-md-4 balloon text-center animated zoomIn'>
+          <img src="balloons_128.png">
+        </div> 
+
+        <div class='col-xs-4 col-sm-4 col-md-4 text-center placeholder'></div>
+
+      </div>
+
       </div> <!-- end row word-->
 
       <div class="row redrocks">
@@ -70,35 +90,35 @@
         
         <div class="row alphabet animated fadeInUp">
           <div class='col-xs-12 col-sm-12 text-center'>
-            <span class="alpha vowel unclicked hvr-grow" id="A">A</span>
-            <span class="alpha vowel unclicked hvr-grow" id="E">E</span>
-            <span class="alpha vowel unclicked hvr-grow" id="I">I</span>
-            <span class="alpha vowel unclicked hvr-grow" id="O">O</span>
-            <span class="alpha vowel unclicked hvr-grow" id="U">U</span>
-            <span class="alpha vowel unclicked hvr-grow" id="Y">Y</span>
+            <span class="alphaCorrect vowel unclicked hvr-grow" id="A">A</span>
+            <span class="alphaCorrect vowel unclicked hvr-grow" id="E">E</span>
+            <span class="alphaWrong vowel unclicked hvr-grow" id="I">I</span>
+            <span class="alphaWrong vowel unclicked hvr-grow" id="O">O</span>
+            <span class="alphaWrong vowel unclicked hvr-grow" id="U">U</span>
+            <span class="alphaWrong vowel unclicked hvr-grow" id="Y">Y</span>
           </div>
         
           <div class='col-xs-12 col-sm-12 text-center'>
-            <span class="alpha consonant unclicked hvr-grow" id="B">B</span>
-            <span class="alpha consonant unclicked hvr-grow" id="C">C</span>
-            <span class="alpha consonant unclicked hvr-grow" id="D">D</span>
-            <span class="alpha consonant unclicked hvr-grow" id="F">F</span>
-            <span class="alpha consonant unclicked hvr-grow" id="G">G</span>
-            <span class="alpha consonant unclicked hvr-grow" id="H">H</span>
-            <span class="alpha consonant unclicked hvr-grow" id="j">J</span>
-            <span class="alpha consonant unclicked hvr-grow" id="K">K</span>
-            <span class="alpha consonant unclicked hvr-grow" id="L">L</span>
-            <span class="alpha consonant unclicked hvr-grow" id="M">M</span>
-            <span class="alpha consonant unclicked hvr-grow" id="N">N</span>
-            <span class="alpha consonant unclicked hvr-grow" id="P">P</span>
-            <span class="alpha consonant unclicked hvr-grow" id="Q">Q</span>
-            <span class="alpha consonant unclicked hvr-grow" id="R">R</span>
-            <span class="alpha consonant unclicked hvr-grow" id="S">S</span>
-            <span class="alpha consonant unclicked hvr-grow" id="T">T</span>
-            <span class="alpha consonant unclicked hvr-grow" id="V">V</span>
-            <span class="alpha consonant unclicked hvr-grow" id="W">W</span>
-            <span class="alpha consonant unclicked hvr-grow" id="X">X</span>
-            <span class="alpha consonant unclicked hvr-grow" id="Z">Z</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="B">B</span>
+            <span class="alphaCorrect consonant unclicked hvr-grow" id="C">C</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="D">D</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="F">F</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="G">G</span>
+            <span class="alphaCorrect consonant unclicked hvr-grow" id="H">H</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="j">J</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="K">K</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="L">L</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="M">M</span>
+            <span class="alphaCorrect consonant unclicked hvr-grow" id="N">N</span>
+            <span class="alphaCorrect consonant unclicked hvr-grow" id="P">P</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="Q">Q</span>
+            <span class="alphaCorrect consonant unclicked hvr-grow" id="R">R</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="S">S</span>
+            <span class="alphaCorrect consonant unclicked hvr-grow" id="T">T</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="V">V</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="W">W</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="X">X</span>
+            <span class="alphaWrong consonant unclicked hvr-grow" id="Z">Z</span>
           </div> 
         </div> <!-- end row alphabet-->
       </div> <!-- end container-->

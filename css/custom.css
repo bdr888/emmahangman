@@ -41,6 +41,14 @@ font-family: 'Raleway', sans-serif;
   	-webkit-animation-delay: 1s;
 }
 
+.balloon {
+	/*-webkit-animation-delay: 4s;*/
+	vertical-align: middle;
+	display: none;
+	margin-top: 80px;
+
+}
+
 .redrocks {
 	font-family: "Raleway";
 	font-size: 35px;
